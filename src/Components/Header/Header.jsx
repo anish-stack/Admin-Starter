@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import logo from './logo-main.png';
 const Header = () => {
     return (
-        <div className="fixed left-0 flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 min-h-screen w-full max-w-[20rem] p-4 shadow-xl shadow-blue-gray-900/5">
+        <div className="fixed left-0 flex flex-col bg-clip-border  bg-white text-gray-700 min-h-screen w-full max-w-[20rem] p-4 shadow-xl shadow-blue-gray-900/5">
             <div className="mb-2 p-4">
                 <img src={logo} className="w-32" alt="logo" />
             </div>

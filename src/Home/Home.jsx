@@ -13,10 +13,10 @@ import ContactRequest from "../Components/Contact/ContactRequest"
 const Home = () => {
   return (
     <div className="w-full flex">
-        <div className="w-1/4">
+        <div className="w-[15%]  ">
             <Header/>
         </div>
-        <div className="w-1/4">
+        <div className="w-[85%] absolute left-[17%] z-99 bg-white ">
            <Routes>
             <Route path="/home" element={<FrontPage/>} />
             <Route path="/All Products" element={<Allproducts/>} />
